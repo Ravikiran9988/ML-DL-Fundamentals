@@ -10,15 +10,15 @@
 
 ### Main Book
 
-**[ML + Deep Learning Fundamentals — Full Beginner → GenAI Edition](ML-Deep-Learning-Fundamentals.pdf)**  
+**[ML + Deep Learning Fundamentals — Full Beginner → GenAI Edition](PDF/ML-DL-Fundamentals-Book.pdf)**  
 
-**[📄 Read the Markdown edition](ML-Deep-Learning-Fundamentals.md)**
+**[📄 Read the Markdown edition](MD/ML-Deep-Learning-Fundamentals.md)**
 
 The 170-page main book is the complete learning path: a 10-day ML/deep-learning course, GenAI bridges, Project Ladder, and Study Toolkit.
 
 ### Assignment Guide
 
-**[Assignment Guide — Hints, Solutions & Acceptance Criteria](Assignment-Guide-Hints-Solutions.pdf)**
+**[Assignment Guide — Hints, Solutions & Acceptance Criteria](PDF/Assignment-Guide-with-Hints-and-Solutions.pdf)**
 
 The separate assignment guide is the practical companion for the learning path. It provides structured assignments, expected outputs, acceptance criteria, hints, solutions, submission guidance, rubrics, and debugging exercises.
 

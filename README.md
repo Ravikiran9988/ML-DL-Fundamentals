@@ -442,17 +442,39 @@ For major projects, the companion uses a 100-point self-check across:
 | Code quality | 5 |
 | **Total** | **100** |
 
-## Suggested GitHub Workflow
+## Repository Structure
 
-Keep the learning work in one repository:
+The repository keeps the published learning material separated by format for easier navigation:
 
 ```text
 ML-DL-Fundamentals/
+│
+├── PDF/
+│   ├── ML-DL-Fundamentals-Book.pdf
+│   └── Assignment-Guide-with-Hints-and-Solutions.pdf
+│
+├── MD/
+│   └── ML-Deep-Learning-Fundamentals.md
+│
 ├── README.md
-├── ML-Deep-Learning-Fundamentals.pdf
-├── Assignment-Guide-Hints-Solutions.pdf
 └── LICENSE
 ```
+
+### Which file should you use?
+
+| Folder / File | Purpose |
+|---|---|
+| PDF/ML-DL-Fundamentals-Book.pdf | Main 170-page book with the designed layout |
+| PDF/Assignment-Guide-with-Hints-and-Solutions.pdf | Standalone assignment guide with hints, solutions, and acceptance criteria |
+| MD/ML-Deep-Learning-Fundamentals.md | Searchable, editable Markdown text edition of the main book |
+| README.md | Quick overview, roadmap, assignments, project ladder, and navigation |
+| LICENSE | CC BY-NC 4.0 license |
+
+**Recommended flow:** Start with the **PDF book** for the full learning experience. Use the **Assignment Guide** while completing exercises. Use the **Markdown edition** when you want searchable text, GitHub-friendly reading, or to reuse/edit the content.
+
+## Suggested GitHub Workflow
+
+Keep the learning work in this repository. For the actual coding assignments, use a separate folder for each day:
 
 For the actual coding assignments, the book's companion recommends a one-folder-per-day structure such as:
 

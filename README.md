@@ -18,7 +18,6 @@ Use the Drive folder for the available book and learning resources.
 
 **[ML + Deep Learning Fundamentals — Full Beginner → GenAI Edition](PDF/ML-DL-Fundamentals-Book.pdf)**  
 
-**[📄 Read the Markdown edition](MD/ML-Deep-Learning-Fundamentals.md)**
 
 The 170-page main book is the complete learning path: a 10-day ML/deep-learning course, GenAI bridges, Project Ladder, and Study Toolkit.
 

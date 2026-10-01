@@ -6,6 +6,22 @@
 [![Year](https://img.shields.io/badge/Year-2026-informational)](https://github.com/Ravikiran9988/ML-DL-Fundamentals)
 [![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey)](LICENSE)
 
+## Resources
+
+### Main Book
+
+**[ML + Deep Learning Fundamentals — Full Beginner → GenAI Edition](ML-Deep-Learning-Fundamentals.pdf)**
+
+The 170-page main book is the complete learning path: a 10-day ML/deep-learning course, GenAI bridges, Project Ladder, and Study Toolkit.
+
+### Assignment Guide
+
+**[Assignment Guide — Hints, Solutions & Acceptance Criteria](Assignment-Guide-Hints-Solutions.pdf)**
+
+The separate assignment guide is the practical companion for the learning path. It provides structured assignments, expected outputs, acceptance criteria, hints, solutions, submission guidance, rubrics, and debugging exercises.
+
+The guide is intended to be used alongside the main book: **learn the concept in the book → attempt the assignment → check the acceptance criteria → use hints when needed → compare with the reference solution.**
+
 ## Overview
 
 **ML + Deep Learning Fundamentals — Full Beginner → GenAI Edition** is a self-study learning path that builds machine-learning and deep-learning fundamentals first, then connects those foundations to modern GenAI systems.

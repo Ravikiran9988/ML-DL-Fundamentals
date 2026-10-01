@@ -8,6 +8,12 @@
 
 ## Resources
 
+### Google Drive
+
+**[📁 Open the Google Drive folder](https://drive.google.com/drive/folders/1iQCSufKtDDTurbHtu7OyLDjnpQMI726v)**
+
+Use the Drive folder for the available book and learning resources.
+
 ### Main Book
 
 **[ML + Deep Learning Fundamentals — Full Beginner → GenAI Edition](PDF/ML-DL-Fundamentals-Book.pdf)**  

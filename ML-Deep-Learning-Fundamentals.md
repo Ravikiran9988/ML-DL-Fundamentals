@@ -2,11 +2,9 @@
 
 ## Full Beginner → GenAI Edition
 
-> Converted from the 170-page v2.5 PDF edition. Page boundaries are preserved below so the Markdown version can be used as a searchable, versioned text companion.
+> Markdown text edition converted from the 170-page v2.5 book PDF. The content is preserved as text for search, versioning, and GitHub reading.
 
 ---
-
-## Page 1
 
 <PARSED TEXT FOR PAGE: 1 / 170>
 FULL BEGINNER → GENAI EDITION
@@ -447,11 +445,6 @@ Shape rule: (a × b) · (b × c) → (a × c). The two inner numbers must match;
 Why it matters in ML: a whole neural-network layer is one matrix multiplication, and attention (Day 9) is built from dot
 products. Most PyTorch shape errors are this rule being broken.
 10
-
----
-
-## Page 11
-
 <PARSED TEXT FOR PAGE: 11 / 170>
 ML + DL Fundamentals · Full Beginner → GenAI Edition Before Day 1 — Minimum Prerequisites
 6d
@@ -816,11 +809,6 @@ a = [1, 0], b = [1, 1]
 • cos = 1 / 1.414 = 0.707 (45° angle)
 ML + DL Fundamentals · Full Beginner → GenAI Edition Day 1 — NumPy + Pandas
 1420
-
----
-
-## Page 21
-
 <PARSED TEXT FOR PAGE: 21 / 170>
 def cosine(a, b):
  return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
@@ -1230,11 +1218,6 @@ Beginner checkpoint — Day 1
 ■ Write one question you still cannot answer.
 ML + DL Fundamentals · Full Beginner → GenAI Edition Day 1 — NumPy + Pandas
 2430
-
----
-
-## Page 31
-
 <PARSED TEXT FOR PAGE: 31 / 170>
 DAY 2 OF 10
 Linear Regression + Gradient Descent
@@ -1642,11 +1625,6 @@ Learning-rate guide
 • Smooth downward curve →
 ML + DL Fundamentals · Full Beginner → GenAI Edition Day 2 — Linear Regression + Gradient Descent
 3440
-
----
-
-## Page 41
-
 <PARSED TEXT FOR PAGE: 41 / 170>
 2.5 ★ Linear Regression From Scratch (NumPy)
 import numpy as np
@@ -2036,11 +2014,6 @@ Fixes
 3.3 Train / Validation / Test Split
 ML + DL Fundamentals · Full Beginner → GenAI Edition Day 3 — Overfitting, Regularization & Cross-Validation
 4450
-
----
-
-## Page 51
-
 <PARSED TEXT FOR PAGE: 51 / 170>
 Set Purpose Typical
 %
@@ -2426,11 +2399,6 @@ matrix layout
 Next: Day 5 — k-NN, k-Means, PCA, Embeddings + Telco Churn Project
 ML + DL Fundamentals · Full Beginner → GenAI Edition Day 4 — Metrics, Decision Trees, Random Forest, Boosting
 5460
-
----
-
-## Page 61
-
 <PARSED TEXT FOR PAGE: 61 / 170>
 ⚡ Quick Recap — Day 4
 4.1 Confusion Matrix
@@ -2843,11 +2811,6 @@ Quick Summary
 • Full project flow: clean → pipeline → CV → test → importance → README
 ML + DL Fundamentals · Full Beginner → GenAI Edition Day 5 — k-NN, k-Means, PCA, Embeddings + Telco Churn Project
 6470
-
----
-
-## Page 71
-
 <PARSED TEXT FOR PAGE: 71 / 170>
 Next: Day 6 — Neural Networks From Scratch
 ⚡ Quick Recap — Day 5
@@ -3222,11 +3185,6 @@ repeat for each epoch:
 These are the same 4 steps at the heart of training most neural networks.
 ML + DL Fundamentals · Full Beginner → GenAI Edition Day 6 — Neural Networks From Scratch
 7280
-
----
-
-## Page 81
-
 <PARSED TEXT FOR PAGE: 81 / 170>
 9. ★ ASSIGNMENT — Full 2-Layer NN on Moons (complete code)
 import numpy as np
@@ -3647,11 +3605,6 @@ prob = torch.sigmoid(model(x)) # binary
 pred = (prob > 0.5).float()
 ML + DL Fundamentals · Full Beginner → GenAI Edition Day 7 — PyTorch
 8290
-
----
-
-## Page 91
-
 <PARSED TEXT FOR PAGE: 91 / 170>
 7. Optimizer
 The optimizer applies the gradient-descent update: param -= lr × grad (and smarter variants).
@@ -4066,11 +4019,6 @@ Use: after each epoch if es.step(val_loss, model): break; at the end
 model.load_state_dict(es.best_state).
 ML + DL Fundamentals · Full Beginner → GenAI Edition Day 8 — MNIST, Dropout, Early Stopping, CNN
 100 92
-
----
-
-## Page 101
-
 <PARSED TEXT FOR PAGE: 101 / 170>
 5. Reading Training Curves
 What you see Meaning What to do
@@ -4511,11 +4459,6 @@ Step 3 — Softmax (row-wise): turns each row into probabilities that sum to 1 �
 weights A (T, T). Row i = “how token i distributes its attention across all tokens”.
 ML + DL Fundamentals · Full Beginner → GenAI Edition Day 9 — Attention & Transformers ★★★
 102 110
-
----
-
-## Page 111
-
 <PARSED TEXT FOR PAGE: 111 / 170>
 Step 4 — Weighted sum of values: Output = A · V → (T, d_k). Each token’s new vector = a blend
 of all tokens’ values, weighted by attention.
@@ -4980,11 +4923,6 @@ Q&A
 Mistral,
 9.13 Quick Q&A (Interview Ready)
 120
-
----
-
-## Page 121
-
 <PARSED TEXT FOR PAGE: 121 / 170>
 • Complexity of attention? O(T²) in sequence length → why long context is expensive.
 • Why Q, K, V separate? Lets model learn different roles for “asking”, “matching”, “giving”.
@@ -5373,11 +5311,6 @@ Transformer Attention + FFN + residual +
 LayerNorm, stacked
 ML + DL Fundamentals · Full Beginner → GenAI Edition Day 10 — Capstone + Recap
 122 130
-
----
-
-## Page 131
-
 <PARSED TEXT FOR PAGE: 131 / 170>
 10.2 Capstone Framework
 Pick one model (recommended: MNIST CNN, or Attention from Day 9) and rebuild without tutorials.
@@ -5829,11 +5762,6 @@ in prompts, filter what is retrieved by the user's permissions, and redact logs.
 No single filter fully solves prompt injection. Build so that a successful injection has limited damage: small
 permissions, confirmations, and audit logs.
 140
-
----
-
-## Page 141
-
 <PARSED TEXT FOR PAGE: 141 / 170>
 ML + DL Fundamentals · Full Beginner → GenAI Edition Part II — GenAI Bridges
 126g
@@ -6144,11 +6072,6 @@ The detailed day-by-day material in Part I provides the depth; this book is desi
 see, especially for a beginner moving toward GenAI. Good luck — ship one folder a day!
 ML + DL Fundamentals · Full Beginner → GenAI Edition Final Mental Model
 137 150
-
----
-
-## Page 151
-
 <PARSED TEXT FOR PAGE: 151 / 170>
 Glossary — Key Terms in Plain English
 Term Plain-English meaning
@@ -6683,11 +6606,6 @@ softmax([1.15,0.58]) ~ [0.64, 0.36]
 output = attn @ V
 Result: each position gets a weighted mix of all embeddings. Cat attends 64% to itself, 36% to dog.
 160
-
----
-
-## Page 161
-
 <PARSED TEXT FOR PAGE: 161 / 170>
 ML + DL Fundamentals · Full Beginner → GenAI Edition About This Book
 161
@@ -7171,6 +7089,3 @@ LINKEDIN linkedin.com/in/medicharla-ravi-kiran
 GITHUB github.com/Ravikiran9988
 EMAIL ravikiran@axly.in
 © 2026 Medicharla Ravi Kiran · Licensed CC BY-NC 4.0 · Written and researched by the author, with AI assistance
-
----
-
